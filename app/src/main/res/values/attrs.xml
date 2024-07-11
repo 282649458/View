@@ -3,4 +3,9 @@
     <declare-styleable name="FromView">
         <attr name="view_color" format="color"/>
     </declare-styleable>
+    <declare-styleable name="TitleBar">
+        <attr name="title_color" format="color"/>
+        <attr name="title_bg" format="color"/>
+        <attr name="title_text" format="string"/>
+    </declare-styleable>
 </resources>

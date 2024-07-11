@@ -18,14 +18,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <Button
+        android:id="@+id/turn_to_View"
         android:layout_width="match_parent"
         android:layout_height="60dp"
+        android:layout_marginTop="108dp"
         android:text="跳转到自定义View"
-        android:id="@+id/turn_to_View"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <Button
         android:id="@+id/action_image"
@@ -46,6 +47,8 @@
         android:text="这里是一个实验"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,14 +5,23 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="horizontal"
     tools:context=".MyselfView">
+    <com.example.myapplication.View.TitleBar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/titleBar"
+        app:title_bg="@color/yellow"
+        app:title_color="@color/pink"
+        app:title_text="这是自定义组合控件" />
+
+
 
     <com.example.myapplication.View.FromView
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="116dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="100dp"
         />
-
 
 </LinearLayout>
