@@ -21,6 +21,7 @@ public class MyselfView extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_myself_view);
         Intent intent=new Intent(this,AnimatorTest.class);
+        Intent intent1=new Intent(this,MyselfViewGroup.class);
         titleBar=findViewById(R.id.titleBar);
         titleBar.setTitle("这里是自定义组合控件");
         titleBar.setLeftListener(new View.OnClickListener() {
@@ -33,6 +34,7 @@ public class MyselfView extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(MyselfView.this,"点击右侧的image",Toast.LENGTH_SHORT).show();
+                startActivity(intent1);
             }
         });
     }
